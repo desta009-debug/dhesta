@@ -70,7 +70,7 @@ export default function App() {
 
         {/* ─── NAVBAR ─── */}
         <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
-          <a href="#home" className="logo">Des<span>.</span></a>
+          <a href="#home" className="logo">Des<span>.com</span></a>
 
           <div className={`nav-links ${menuOpen ? 'nav-links--open' : ''}`}>
             {['about', 'skills', 'projects', 'contact'].map((id) => (
