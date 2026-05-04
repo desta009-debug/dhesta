@@ -101,7 +101,7 @@ export default function App() {
               Mahasiswa Sistem Informasi
             </p>
             <h1 className="anim-in" style={{ '--d': '0.12s' }}>
-              Hai, saya Des.<br />
+              Hai, saya Dhesta.<br />
               <em>Front-end</em> developer<br />yang menyukai desain.
             </h1>
             <p className="hero-description anim-in" style={{ '--d': '0.28s' }}>
@@ -116,21 +116,25 @@ export default function App() {
           </div>
 
           <div className="hero-card anim-in" style={{ '--d': '0.32s' }}>
-            <div className="profile-circle">
+            {/* Full-width banner photo */}
+            <div className="profile-banner">
               <img src={profilePhoto} alt="Foto profil Des" className="profile-image" />
+              <div className="profile-banner-overlay" />
             </div>
 
-            <div className="status-badge">
-              <span className="status-dot" />
-              Available for work
-            </div>
+            <div className="hero-card-body">
+              <div className="status-badge">
+                <span className="status-dot" />
+                Available for work
+              </div>
 
-            <h2>Front-End Developer</h2>
-            <p>Berorientasi pada UI, teliti pada detail, dan terus berkembang.</p>
+              <h2>Front-End Developer</h2>
+              <p>Berorientasi pada UI, teliti pada detail, dan terus berkembang.</p>
 
-            <div className="card-stats">
-              <div><strong>1+</strong><span>Proyek</span></div>
-              <div><strong>8</strong><span>Skill</span></div>
+              <div className="card-stats">
+                <div><strong>1+</strong><span>Proyek</span></div>
+                <div><strong>8</strong><span>Skill</span></div>
+              </div>
             </div>
           </div>
         </section>
@@ -178,7 +182,7 @@ export default function App() {
         <section id="projects" className="section projects">
           <div className="section-header reveal">
             <p className="eyebrow">Proyek</p>
-            <h2>Karya pilihan dan studi kasus.</h2>
+            <h2>Salah satu karya pilihan yang pernah saya buat.</h2>
           </div>
           <div className="project-grid">
             {projects.map((project) => (
@@ -230,8 +234,8 @@ export default function App() {
 
         {/* ─── FOOTER ─── */}
         <footer className="footer">
-          <span>© 2025 Des.</span>
-          <span>Crafted with care — Front-End Developer &amp; UI Enthusiast</span>
+          <span>© 2026 Dhesta.</span>
+          <span>— Front-End Developer &amp; UI Enthusiast</span>
         </footer>
 
       </main>
