@@ -93,7 +93,7 @@ img { display: block; }
   width: 420px;
   height: 420px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(245, 29, 29, 0.968) 10%, transparent 40%);
+  background: radial-gradient(circle, rgba(97, 245, 29, 0.968) 10%, transparent 40%);
   transform: translate(-50%, -50%);
   pointer-events: none;
   z-index: 0;
@@ -410,22 +410,22 @@ h1, h2, h3 {
   padding: 7px 14px;
   border-radius: var(--radius-pill);
   background: rgba(255,56,56,.12);
-  border: 1px solid rgba(255,56,56,.28);
+  border: 1px solid rgba(2, 237, 33, 0.982);
   font-size: 13px;
   font-weight: 700;
-  color: #ffb3b3;
+  color: #46f207;
 }
 .status-dot {
   width: 7px;
   height: 7px;
   border-radius: 50%;
   background: var(--red);
-  box-shadow: 0 0 0 0 rgba(255,56,56,.5);
+  box-shadow: 0 0 0 0 rgba(50, 228, 5, 0.936);
   animation: pulse-dot 2s ease-in-out infinite;
 }
 
 @keyframes pulse-dot {
-  0%,100% { box-shadow: 0 0 0 0 rgba(255,56,56,.5); }
+  0%,100% { box-shadow: 0 0 0 0 rgba(5, 244, 29, 0.5); }
   50%      { box-shadow: 0 0 0 6px rgba(255,56,56,0); }
 }
 
